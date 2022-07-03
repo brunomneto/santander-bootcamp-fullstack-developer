@@ -1,0 +1,52 @@
+ -------- Array ---------
+ 
+ let array = []
+ 
+ array.push() - adiciona elemento no fim do array
+ array.pop() - remove último elemento do array
+ array.shift() - remove primeiro elemento do array
+ array.unshift() - adiciona elemento no início do array
+
+-------- Objeto ---------
+
+  tipo chave-valor
+
+let person = {
+    name: "Julia",
+    age: 20,
+    adress: "Rua 20",
+    city: "Porto Alegre"
+}
+
+person
+{name: 'Julia', age: 20, adress: 'Rua 20', city: 'Porto Alegre'}
+person.name
+'Julia'
+person["name"]
+'Julia'
+person["numberOfSiblings"] = 3
+3
+person
+{name: 'Julia', age: 20, adress: 'Rua 20', city: 'Porto Alegre', numberOfSiblings: 3}
+
+let mom = "nameOfMom"
+
+person[mom] = "Maria"
+
+person
+{name: 'Julia', age: 20, adress: 'Rua 20', city: 'Porto Alegre', numberOfSiblings: 3, …}
+adress: "Rua 20"
+age: 20
+city: "Porto Alegre"
+name: "Julia"
+nameOfMom: "Maria"
+numberOfSiblings: 3
+[[Prototype]]: Object
+
+-------- Empty, null e undefined ---------
+
+Empty -> número: 0; string: ""; array: []; Object: {}
+
+Null -> quando se quer que de propósito aquele valor seja nulo, falso, não exista
+
+undefined -> valor não existe, não foi declarado.
